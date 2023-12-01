@@ -1,0 +1,46 @@
+.image {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.description-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.description-container > h1 {
+  font-size: 50px;
+  color: darkorange;
+  font-weight: bold;
+  padding: 10px;
+}
+.recipe-desc {
+  white-space: pre-line;
+  text-align: start;
+  width: 500px;
+  height: 80px;
+  margin: 0;
+  padding: 10px;
+}
+.blue-btn {
+  color: white;
+  font-size: large;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 150px;
+  height: 50px;
+  background-color: teal;
+  margin: 10px;
+}
+.blue-btn:hover {
+  background-color: turquoise;
+}

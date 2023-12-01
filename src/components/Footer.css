@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: darkslategray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+}
+
+.social {
+  align-items: center;
+  margin: 20px;
+  padding-left: 40px;
+}
+.social > h5 {
+  margin: 10px;
+}
+.social > div > a {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  align-items: center;
+  background-color: cadetblue;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.logo {
+  margin: 20px;
+  padding-right: 40px;
+}
